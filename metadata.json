@@ -1,0 +1,5 @@
+{
+  "name": "IGPU-X: The Integrated GPU Revolution",
+  "description": "A high-performance guide and showcase for running Generative AI on integrated Intel GPUs using OpenVINO and ComfyUI.",
+  "requestFramePermissions": []
+}
