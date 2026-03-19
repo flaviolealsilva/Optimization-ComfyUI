@@ -719,7 +719,8 @@ export default function App() {
               <a href="#" className="hover:text-white transition-colors">License</a>
             </div>
             <p className="text-[10px] uppercase tracking-[0.3em] text-zinc-700 font-bold">
-              © 2026 • Built for the Revolution
+              © 2026 • Built for the Revolution{' '}
+              <span className="text-sky-400 font-bold">by Flávio Leal.</span>
             </p>
           </div>
         </div>
