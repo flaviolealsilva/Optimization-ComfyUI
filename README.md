@@ -2,19 +2,35 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Optimization-ComfyUI
 
-This contains everything you need to run your app locally.
+Projeto React + Vite para showcase de performance de IA em iGPU Intel.
 
-View your app in AI Studio: https://ai.studio/apps/615bf086-69e2-4476-92e8-8706e33e84f4
+## Rodar localmente
 
-## Run Locally
+Prerequisito: Node.js 20+
 
-**Prerequisites:**  Node.js
+1. Instale as dependencias:
+   npm install
+2. (Opcional) Configure variaveis locais no arquivo .env.local
+3. Inicie em modo dev:
+   npm run dev
 
+## Publicar no GitHub Pages
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+O projeto ja esta configurado para deploy automatico via GitHub Actions no GitHub Pages.
+
+1. Suba este codigo para um repositorio no GitHub.
+2. Verifique se a branch principal e main ou master.
+3. No GitHub, abra Settings > Pages.
+4. Em Build and deployment, selecione Source: GitHub Actions.
+5. Faça push na branch principal para disparar o workflow.
+6. Acompanhe em Actions o workflow Deploy to GitHub Pages ate concluir.
+7. A URL final ficara em Settings > Pages e tambem na aba de deploy do workflow.
+
+## Build de producao
+
+Para gerar build local de producao:
+
+1. npm run build
+2. npm run preview
