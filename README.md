@@ -23,10 +23,11 @@ O projeto ja esta configurado para deploy automatico via GitHub Actions no GitHu
 1. Suba este codigo para um repositorio no GitHub.
 2. Verifique se a branch principal e main ou master.
 3. No GitHub, abra Settings > Pages.
-4. Em Build and deployment, selecione Source: GitHub Actions.
-5. Faça push na branch principal para disparar o workflow.
-6. Acompanhe em Actions o workflow Deploy to GitHub Pages ate concluir.
-7. A URL final ficara em Settings > Pages e tambem na aba de deploy do workflow.
+4. Em Build and deployment, selecione **Source: GitHub Actions** (nao deixe como "Deploy from a branch").
+5. Salve essa configuracao.
+6. Faça push na branch principal para disparar o workflow.
+7. Acompanhe em Actions o workflow Deploy to GitHub Pages ate concluir.
+8. A URL final ficara em Settings > Pages e tambem na aba de deploy do workflow.
 
 ## Build de producao
 
